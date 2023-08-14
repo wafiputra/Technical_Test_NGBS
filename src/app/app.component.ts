@@ -31,6 +31,22 @@ export class AppComponent implements OnInit {
         position: 3,
         el: document.getElementById('carousel-item-4')!
       },
+      {
+        position: 4,
+        el: document.getElementById('carousel-item-5')!
+      },
+      {
+        position: 5,
+        el: document.getElementById('carousel-item-6')!
+      },
+      {
+        position: 6,
+        el: document.getElementById('carousel-item-7')!
+      },
+      {
+        position: 7,
+        el: document.getElementById('carousel-item-8')!
+      },
     ];
 
     const options: CarouselOptions = {
@@ -56,6 +72,22 @@ export class AppComponent implements OnInit {
             {
                 position: 3,
                 el: document.getElementById('carousel-indicator-4')!
+            },
+            {
+                position: 4,
+                el: document.getElementById('carousel-indicator-5')!
+            },
+            {
+                position: 5,
+                el: document.getElementById('carousel-indicator-6')!
+            },
+            {
+                position: 6,
+                el: document.getElementById('carousel-indicator-7')!
+            },
+            {
+                position: 7,
+                el: document.getElementById('carousel-indicator-8')!
             },
         ]
     },
